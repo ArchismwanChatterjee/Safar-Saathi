@@ -1,23 +1,14 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDPdg9Hui5AU55oZgIjTERUH1AmSgF6pII",
-//   authDomain: "safarsaathi5.firebaseapp.com",
-//   projectId: "safarsaathi5",
-//   storageBucket: "safarsaathi5.appspot.com",
-//   messagingSenderId: "877375595622",
-//   appId: "1:877375595622:web:c9f2c6b4dc0cf29460b9a7",
-//   measurementId: "G-2QYEZT7LYN",
-// };
 const firebaseConfig = {
-  apiKey: "AIzaSyBFfmoQHT6eatq04R9iVZKYQxYfJhsxMWA",
-  authDomain: "safar-saathi1.firebaseapp.com",
-  projectId: "safar-saathi1",
-  storageBucket: "safar-saathi1.appspot.com",
-  messagingSenderId: "944882466580",
-  appId: "1:944882466580:web:55814a0d7400eadb560c01",
-  measurementId: "G-FH293R4H76"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "footprint-friend-90ccd.firebaseapp.com",
+  projectId: "footprint-friend-90ccd",
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGE_ID,
+  appId: process.env.REACT_APP_AP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
