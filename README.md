@@ -2,6 +2,8 @@
 # Safar Saathi
 ## Your personal AI-tour planner to make travel planning simple.
 
+![License](https://badgen.net/github/license/micromatch/micromatch)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 Safar Saathi is all you need if you plan to travel in India,
 - Enter the location you have in mind.
